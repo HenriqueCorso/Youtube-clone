@@ -1,0 +1,127 @@
+.sub-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 110px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: opacity 0.3s;
+}
+
+.sub-button:hover {
+  opacity: 0.7;
+}
+.sub-button:active {
+  opacity: 0.4;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(19, 114, 238);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(19, 114, 238);
+  height: 35px;
+  width: 60px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: background-color 1s, color 1s;
+}
+
+.join-button:hover {
+  background-color: rgb(19, 114, 238);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(30, 122, 228);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 70px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.tweet-button:active {
+  opacity: 0.6;
+}
+.add-button {
+  margin-top: 20px;
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 35px;
+  width: 160px;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: orange;
+}
+.add-button:active {
+  opacity: 0.6;
+}
+
+.sign-button {
+  margin-left: 10px;
+  background-color: rgb(46, 164, 79);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.sign-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sign-button:active {
+  opacity: 0.6;
+}
+
+.test-button {
+  background-color: green;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-color: red;
+  color: yellow;
+  transition: background-color 0.3s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-style: solid;
+}
+
+.test-button:hover {
+  background-color: red;
+  border-color: yellow;
+  color: green;
+}
+
+.test-button:active {
+  background-color: yellow;
+  border-color: green;
+  color: red;
+}
